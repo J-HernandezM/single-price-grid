@@ -2,48 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color:hsl(179, 62%, 43%); text-decoration: none;}
   </style>
 </head>
 <body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
+  <main class="main">
+    <div class="card">
+      <div class="card__join boxes">
+        <p class="card__title joinTitle">Join our community</p>
+        <p class="card__subtitle">30-day, hassle-free money back guarantee</p>
+        <p class="card__info joinInfo">  Gain access to our full library of tutorials along with expert code reviews. 
+          Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+      <div class="card__price boxes">
+        <p class="card__title priceTitle">  Monthly Subscription</p>
+        <div class="card__priceLine">
+          <p class="price"> &dollar;29</p>
+          <p class="card__info priceInfoMonth">per month</p>
+        </div>
+        <p class="card__subtitle priceInfo">  Full access for less than &dollar;1 a day</p>
+        <button class="btn">Sign Up</button>
+      </div>
+      <div class="card__why boxes">
+        <p class="card__title whyTitle">  Why Us</p>
+        <div class="card__info whyInfo">  
+          <p class="whyRow">Tutorials by industry experts</p>
+          <p class="whyRow">Peer &amp; expert code review</p>
+          <p class="whyRow">Coding exercises</p>
+          <p class="whyRow">Access to our GitHub repos</p>
+          <p class="whyRow">Community forum</p>
+          <p class="whyRow">Flashcard decks</p>
+          <p class="whyRow">New videos every week</p>
+        </div>
+      </div>
+    </div>
+  </main>  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/J-HernandezM">J-HernandezM</a>.
     </p>
   </footer>
 </body>
