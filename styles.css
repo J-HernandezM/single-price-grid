@@ -154,8 +154,8 @@ main{
         max-width: 730rem;
         width: 50%;
         height: 65%;
+        min-height: 400rem;
         max-height: 500rem;
-        min-height: 0;
     }
     .boxes{
         
