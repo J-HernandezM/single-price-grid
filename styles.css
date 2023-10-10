@@ -10,12 +10,12 @@
     --info-gray2:rgba(186,189,198,255);
     --info-price:#7ae1df;
 
-    --sm:15rem;
-    --md:16rem;
-    --lg: 20rem;
-    --xl:34rem;
-    --xs:13.5rem;
-    font-size: 6.25%;
+    --sm:1.5rem;
+    --md:1.6rem;
+    --lg: 2.0rem;
+    --xl:3.4rem;
+    --xs:1.35rem;
+    font-size: 62.5%;
 }
 *{
     box-sizing: border-box;
@@ -37,12 +37,12 @@ main{
     display: grid;
     grid-template-rows: 36% 30% 34%;
 
-    width:335rem ;
+    width:33.5rem ;
     height: 83%;
-    min-height: 700rem;
+    min-height: 70.0rem;
 
     background-color: var(--light-gray);
-    border-radius: 5rem;
+    border-radius: .5rem;
 }
 .card__title{
     font-size: var(--lg);
@@ -66,7 +66,7 @@ main{
     font-size: var(--sm);
     font-weight: 400;
     color: var(--light-gray);
-    line-height: 24rem;
+    line-height: 2.4rem;
 }
 .joinInfo{
     color: var(--info-gray2);
@@ -78,10 +78,10 @@ main{
 }
 .whyRow{
     color: var(--light-gray);
-    line-height: 26rem;
+    line-height: 2.6rem;
 }
 .price{
-    margin-right: 12rem;
+    margin-right: 1.2rem;
 
     color: var(--light-gray);
     font-weight: 700;
@@ -95,7 +95,7 @@ main{
     font-weight: 400;
 }
 .boxes{
-    padding: 10rem 24rem 10rem 24rem;
+    padding: 1.0rem 2.4rem 1.0rem 2.4rem;
 }
 .card__join{
     display: grid;
@@ -103,7 +103,7 @@ main{
     place-items: center start;
 
     background-color: white;
-    border-radius: 10rem 10rem 0rem 0rem;
+    border-radius: 1.0rem 1.0rem 0rem 0rem;
 }
 
 .card__price{
@@ -121,10 +121,10 @@ main{
     grid-template-rows: 25% 75%;
     place-items: center start;
 
-    padding-bottom: 24rem;
+    padding-bottom: 2.4rem;
 
     background-color: var(--cyan2);
-    border-radius: 0rem 0rem 10rem 10rem;
+    border-radius: 0rem 0rem 1.0rem 1.0rem;
 }
 .card__priceLine{
     display: flex;
@@ -132,14 +132,14 @@ main{
 }
 .btn{
     width: 100%;
-    height: 50rem;
+    height: 5.0rem;
 
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: var(--md);
     color: var(--light-gray);
     background-color: var(--bright-yellow);
-    border-radius: 10rem;
+    border-radius: 1.0rem;
     border: none;
 }
 .btn:hover{
@@ -151,32 +151,32 @@ main{
         grid-template-rows: 40% 60%;
         grid-template-columns: 50% 50%;
         
-        max-width: 730rem;
+        max-width: 73.0rem;
         width: 50%;
         height: 65%;
-        min-height: 400rem;
-        max-height: 500rem;
+        min-height: 40.0rem;
+        max-height: 50.0rem;
     }
     .boxes{
         
-        padding: 20rem 40rem 20rem 40rem;
+        padding: 2.0rem 4.0rem 2.0rem 4.0rem;
     }
     .card__join{
         grid-template-rows: 30% 20% 50%;
         grid-area: 1/1/2/3;
     }
     .card__price{
-        border-radius: 0rem 0rem 0rem 10rem;
+        border-radius: 0rem 0rem 0rem 1.0rem;
     }
     .card__why{
-        border-radius: 0rem 0rem 10rem 0rem;
+        border-radius: 0rem 0rem 1.0rem 0rem;
         grid-template-rows: 17% 83%;
     }
     .card__why p:nth-child(1){
         align-self: last baseline;
     }
     .whyRow{
-        line-height: 20rem;
+        line-height: 2.0rem;
         font-size: var(--xs);
     }
     
